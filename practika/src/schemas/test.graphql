@@ -1,0 +1,8 @@
+type Test {
+    testData: String
+    jopa: String
+}
+input TestInput {
+    testData: String!
+    jopa: String!
+}

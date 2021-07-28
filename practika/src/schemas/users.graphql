@@ -1,0 +1,11 @@
+type User {
+    name: String
+    phone: String
+    message: String
+}
+
+input UserInput {
+    name: String!
+    phone: String!
+    message: String
+}

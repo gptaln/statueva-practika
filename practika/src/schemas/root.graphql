@@ -1,0 +1,9 @@
+type Query {
+    getTestData: Test
+    getAllUsers: [User]
+}
+
+type Mutation {
+    createNewTest(str: String): Test
+    addUser(user: UserInput): String
+}
